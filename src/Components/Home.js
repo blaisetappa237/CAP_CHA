@@ -18,9 +18,8 @@ const Home = () => {
             VOTRE SHAWARMA PREFERE
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
-          </p>
+          Bienvenue chez CAPITAINE SHAWARMA, 
+          Votre destination pour déguster des shawarmas authentiques au Togo ! Notre équipe de chefs talentueux prépare des shawarmas succulents avec des ingrédients frais et de qualité. Nous vous offrons une expérience culinaire inoubliable avec un service client chaleureux.</p>
         </div>
         <div className="home-image-section">
           <img src={BannerImage} alt="" />

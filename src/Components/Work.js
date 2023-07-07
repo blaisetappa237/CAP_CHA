@@ -2,23 +2,24 @@ import React from "react";
 import PickMeals from "../Assets/pick-meals-image.png";
 import ChooseMeals from "../Assets/choose-image.png";
 import DeliveryMeals from "../Assets/delivery-image.png";
+import BannerBackground from "../Assets/home-banner-background.png";
 
 const Work = () => {
   const workInfoData = [
     {
       image: PickMeals,
       title: "Choisissez votre viande",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et sagittis duis elementum interdum facilisi bibendum.",
+      text: "Poulet tendre, bœuf juteux, nos shawarmas combleront vos papilles.",
     },
     {
       image: ChooseMeals,
-      title: "Choisissez vos ingrédients",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et ",
+      title: "Personnalisez votre shawarma",
+      text: "Composez votre shawarma parfait avec nos ingrédients frais et savoureux. Personnalisez selon vos goûts. ",
     },
     {
       image: DeliveryMeals,
       title: "Faites vous livrer",
-      text: "Lorem ipsum dolor sit amet consectetur. Maecenas orci et lorem ipsum",
+      text: "Commandez en ligne, savourez votre shawarma sans sortir. Service fiable et rapide.",
     },
   ];
   return (
@@ -29,9 +30,10 @@ const Work = () => {
         <h1 className="primary-heading">Comment nous procédons ?</h1>
         </center>
         <p className="primary-text">
-          xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+            Que vous soyez sur place ou chez vous, votre satisfaction est notre priorité !   
         </p>
       </div>
+
       <div className="work-section-bottom">
         {workInfoData.map((data) => (
           <div className="work-section-info" key={data.title}>

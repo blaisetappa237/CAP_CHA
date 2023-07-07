@@ -19,25 +19,30 @@ const About = () => {
             A propos de nous
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Notre équipe dévouée est là pour rendre votre expérience de shawarma au Togo exceptionnelle. Leur expertise et leur convivialité vous guident dans le choix parfait. Chaque membre de notre équipe est formé pour offrir un service chaleureux et professionnel. Rencontrez-nous et laissez-nous vous servir avec passion et enthousiasme.
           </p>
         </div>
+        <div className="about-buttons-container">
+          <a href="https://www.tiktok.com/@tokoss_shawarma/video/7241583327797316869?is_from_webapp=1&sender_device=pc&web_id=7197522591919097350" className="watch-video-button">
+            <BsFillPlayCircleFill /> Regardez la vidéo
+          </a>
+        </div>
+
       </div>
     </div>
   );
 };
 
-  /*<center>
-        <div className="about-buttons-container">
-          <button className="watch-video-button">
-            <BsFillPlayCircleFill /> Regardez la vidéo
-          </button>
-        </div>
-        </center>*/
-  
+/*<center>
+      <div className="about-buttons-container">
+        <button className="watch-video-button">
+          <BsFillPlayCircleFill /> Regardez la vidéo
+        </button>
+      </div>
+      </center>*/
 
-        
+
+
 
 
 export default About;
